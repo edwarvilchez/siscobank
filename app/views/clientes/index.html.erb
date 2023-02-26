@@ -1,14 +1,24 @@
-<p style="color: green"><%= notice %></p>
 
-<h1>Mostar Clientes</h1>
+  <p style="color: green"><%= notice %></p>
 
-<div id="clientes">
-  <% @clientes.each do |cliente| %>
-    <%= render cliente %>
-    <p>
-      <%= link_to "Show this cliente", cliente %>
-    </p>
-  <% end %>
-</div>
 
-<%= link_to "New cliente", new_cliente_path %>
+  <h1>Mostrar Clientes</h1>
+
+  <table class="table table-dark">
+    <div id="clientes" class="container-fluid">
+        <% @clientes.each do |cliente| %>
+          <%= render cliente %>
+          <p>
+            <%= link_to "Mostrar este cliente", cliente %>
+            <%= link_to "Agregar Nuevo Cliente", new_cliente_path  %>
+          </p>
+        <% end %>
+    </div>
+
+</table>
+
+    
+
+
+
+

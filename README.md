@@ -5,11 +5,11 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 3.3.2 
 
-* System dependencies
+* System dependencies Windows 11, Sublime Text 3, Rails 7.0.2
 
-* Configuration
+* Configuration Local Enviroment was configured using a laptop HP Elite Book model Folio 9480m
 
 * Database creation
 
